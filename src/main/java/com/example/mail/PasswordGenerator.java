@@ -12,6 +12,7 @@ public class PasswordGenerator {
 		{
 			password.append(chars.charAt(random.nextInt(chars.length())));
 		}
+		System.out.println("password is generated...");
 		return password.toString();
 	}
 }
